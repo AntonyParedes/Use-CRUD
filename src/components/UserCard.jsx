@@ -49,11 +49,11 @@ const UserCard = ({ user, deleteUser, setUserSelected, setFormIsOpen }) => {
         </li>
       </ul>
       <footer className="user__footer flex-container">
-        <button onClick={handleDelete} className="user__btn user__delete">
-          Delete
-        </button>
         <button onClick={handleEdit} className="user__btn user__edit">
-          Edit
+          <i class="bx bxs-edit"></i>
+        </button>
+        <button onClick={handleDelete} className="user__btn user__delete">
+          <i class="bx bxs-trash"></i>
         </button>
       </footer>
     </article>
