@@ -3,7 +3,9 @@
     max-width: 20em;
     border-radius: 0.5em;
     box-shadow: 0 0 10px 3px #0002;
-    padding: 1.5em 1em 2em;
+    padding: 1.5em 2em 2em;
+    
+    
 
     &:hover {
         scale: 0.95;
@@ -18,7 +20,10 @@
     }
 
     .user__name {
+        text-align: center;
         font-size: 1.5em;
+        font-family: ;
+        
     }
     .user-hr{
         margin: 0.5em 0;

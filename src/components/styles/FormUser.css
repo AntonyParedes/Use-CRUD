@@ -7,6 +7,7 @@
     background-color: #232c2b39;
     backdrop-filter: blur(2px);
     z-index: 2;
+    
 }
 
 .form__close {
@@ -17,8 +18,6 @@
     flex-direction: column;
     gap: 1em;
 
-    
-
     border-radius: 30px;
     box-shadow: 0 5px 15px gba(0, 0, 0, 0.35);
     position: relative;
@@ -26,14 +25,19 @@
     width: 420px;
     max-width: 100%;
     min-height: 480px;
+    
 
-    background-color: #fff;
+    background-color: #55d9db86;
  
     margin: 8px 0;
     padding: 10px 15px;
     font-size: 13p;
+    border: 4px solid white;
+    backdrop-filter: blur(10px);
+
+    
    
-    outline: none;
+
     .form__exit{
         font-size: 1em;
         width: 1.1em;
@@ -45,18 +49,37 @@
         right: 1em;
         top: 1em;
         cursor: pointer;
+        
 
-        .form__title{
-            text-align: center;
-            text-decoration: underline;
-            font-size: 1.5em;
-            margin-bottom: 1em;
-        }
+        
 
         .form__list{
             width: 100%;
             margin-bottom: 1.5em;
+            
         }
+    }
+
+    .form__title{
+        text-align: center;
+        background-color: white;
+        font-size: 1.5em;
+        margin-bottom: 1em;
+        font-family: "Righteous", sans-serif;
+
+   
+        border-radius: 25px;
+        padding: 10px 10px 10px 10px;
+        cursor: pointer;
+
+        
+
+        &:hover{
+            background-color:#000000; ;
+            color: white;
+        }
+
+       
     }
 
         .form__field{
@@ -75,6 +98,7 @@
                 font-size: 13p;
                 border-radius: 8px;
                 width: 100%;
+                
 
                
             }
